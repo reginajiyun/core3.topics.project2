@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is FCD?</title>
+</head>
+<body>
+    <div class="quote-container">
+        <p class="quote">A FDC is important because it provides a reliable water source for firefighters to fight a fire: <br><br>
+
+            <strong> Supplements water supply</strong> - When a fire breaks out, firefighters can connect their hose to FDC to supplement the building’s water supply. This helps ensure that the building has enough water and pressure to put out the fire.
+            
+           <br><br> <strong> Acts as a backup</strong> - FDC can also act as a backup if the building’s domestic water supply is inadequate or a valve is closed.
+            
+           <br><br> <strong> Helps firefighters operate hoselines</strong> - In buildings with standpipe systems, the water supply from the FDC allows firefighters to connect hoses on upper floors.
+            
+           <br><br> <strong> Helps control the fire</strong> - In buildings with sprinkler systems, the water from the FDC helps the system operate to control the fire and prevent it from spreading.
+            
+           <br><br> <strong> Crucial to fire safety</strong> - Hooking up to an FDC as soon as possible can be the difference between putting out a fire and causing extensive property damage.</p><br><br>
+        <p class="quote">FDC come in different types, including:<br><br>
+
+            <strong> Freestanding</strong> - Theses FDCs are separate from the building, usually near a sidewalk, and are connected to the building’s system by a buried pipe.
+            
+            <br><br> <strong>Exposed</strong> - These FDCs are located on the side of a building, with the body, inlet, and swivels visible for easy access.
+            
+            <br><br> <strong>Flush</strong> - Theses FDCs are also located on the side of a building, but the body and pipe are hidden behind an identification plate, with only the inlet couplings or swivels exposed.
+            
+            <br><br> FDCs also vary in the number of inlets they have, with single inlet FDCs being common in smaller structures and double-inlet FDCs being common as well. The double-inlet FDC is sometimes called a “Siamese connection” because of its Y-shaped body and identical twin inlets.</p><br><br>
+    </div>
+    <div class="navigation">
+        <button id="backButton">Back</button>
+        <button id="nextButton">Next</button>
+        <button id="homeButton">Home</button>
+    </div>
+</body>
+<style>
+    body, html {
+    margin: 0;
+    margin-top: 10%;
+    background: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-container {
+    text-align: left;
+    width: 60%;
+    line-height: 1cm;
+    
+}
+
+.quote {
+    margin: 0 0 20px 0; /* 20px space between the quotes */
+}
+
+.navigation button {
+    border: none;
+    background-color: transparent;
+    border-radius: 50px; /* Creates an ellipse shape */
+    color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+#homeButton {
+    left: 10px;
+    top: 10px;
+}
+
+.navigation button:hover {
+    background-color: white;
+    color: black;
+}
+</style>
+<script>
+document.getElementById('homeButton').addEventListener('click', function() {
+    // Go to the home page - replace with your actual home page URL or path
+    window.location.href = 'file:///Users/reginadoo/Desktop/Website/home.html';
+});
+
+</script>
+</html>

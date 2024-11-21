@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is FCD?</title>
+</head>
+<body>
+    <div class="quote-container">
+        <p class="quote">FDCs in NYC are red in color, as per the NYC Fire Code 2022.
+
+            <br><br>Here are some other color-coding systems for fire protection systems:
+            
+            <br>Siamese connections: These two-headed pipes in front of buildings are color coded to indicate where the pipes lead:
+                
+                <br>
+                <br><strong>red</strong>: Connected to a standpipe system
+                <br><strong>green</strong>: Connected to a sprinkler system
+                <br><strong>yellow</strong>: Connected to a combination standpipe and sprinkler system
+            
+            <br><br>Standpipe and yard hydrant systems: Piping, valve bodies, and handles are red with contrasting white bands
+            
+            <br><br>Sprinkler systems: Piping, valve bodies, and handles are red with contrasting bright green bands<br><br></p>
+            <br><br>
+        <p class="quote">A FDC allows firefighters to pump water into a building’s fire sprinkler or standpipe system during a fire. FDCs are usually located outside the building and are required for commercial buildings with fire sprinkler systems or standpipe systems.<br><br>
+
+            <strong>supply</strong> - FDCs can supplement or completely supply the water needed for a fire protection system. They can also serve as an alternative water source if the primary water supply is interrupted.
+            
+           <br><br><strong>Installation</strong> - FDCs are installed based on the buildings occupancy, fire department accessibility, and other considerations.
+            
+            <br><br><strong>Maintenance</strong> - Building owners are responsible for maintaining FDCs so they work in an emergency.
+            
+            <br><br><strong>Signs</strong> - FDCs must be clearly marked with a sign that indicates whether they supply a fire sprinkler or standpipe system, the amount of pressure required, and if they supply the entire building or just part of it.
+            
+            <br><br><strong>Connection</strong> - To connect a hose to an FCD, firefighters use a spanner wrench to tighten the coupling after threading the hose into it.
+            
+            <br><br><strong>Flow</strong> - When pumping water to higher elevations, the ability to provide the required flow decreases. This is because the pressure requirements increase, and the fire department may need multiple inlets to provide the additional flow.</p><br><br>
+    </div>
+    <div class="navigation">
+        <button id="backButton">Back</button>
+        <button id="nextButton">Next</button>
+        <button id="homeButton">Home</button>
+    </div>
+</body>
+<style>
+    body, html {
+    margin: 0;
+    margin-top: 10%;
+    background: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote-container {
+    text-align: left;
+    width: 60%;
+    line-height: 1cm;
+    
+}
+
+.quote {
+    margin: 0 0 20px 0; /* 20px space between the quotes */
+}
+
+.navigation button {
+    border: none;
+    background-color: transparent;
+    border-radius: 50px; /* Creates an ellipse shape */
+    color: black;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    position: fixed;
+}
+
+#nextButton {
+    right: 10px;
+    bottom: 10px;
+}
+
+#homeButton {
+    left: 10px;
+    top: 10px;
+}
+
+.navigation button:hover {
+    background-color: white;
+    color: black;
+}
+</style>
+<script>
+    document.getElementById('nextButton').addEventListener('click', function() {
+    // Go to the next page - replace with your actual next page URL or path
+    window.location.href = 'file:///Users/reginadoo/Desktop/Website/whatisfdc3.html';
+});
+
+document.getElementById('homeButton').addEventListener('click', function() {
+    // Go to the home page - replace with your actual home page URL or path
+    window.location.href = 'file:///Users/reginadoo/Desktop/Website/home.html';
+});
+
+</script>
+</html>
